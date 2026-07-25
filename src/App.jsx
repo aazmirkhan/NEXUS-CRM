@@ -1,8 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
 
-// NexusAi Mini CRM — lead/client pipeline dashboard.
-// Data persists in the browser's localStorage — no backend, no cost.
-
 const ACCENT = "#5EEAD4";
 const ACCENT_SOFT = "rgba(94, 234, 212, 0.12)";
 const INDIGO = "#818CF8";
@@ -130,8 +127,8 @@ export default function App() {
         {/* Header */}
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 24, flexWrap: "wrap", gap: 12 }}>
           <div>
-            <div style={{ fontFamily: "'Sora', sans-serif", fontWeight: 700, fontSize: 22 }}>NexusAi CRM</div>
-            <div style={{ fontSize: 12.5, color: "#8B95A1", marginTop: 2 }}>CRMs — live demo · data saved in your browser</div>
+            <div style={{ fontFamily: "'Sora', sans-serif", fontWeight: 700, fontSize: 22 }}>Nexus CRM</div>
+            <div style={{ fontSize: 12.5, color: "#8B95A1", marginTop: 2 }}>Lead Management & Sales Pipeline Dashboard</div>
           </div>
           <button
             onClick={() => setShowForm((s) => !s)}
