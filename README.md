@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="docs/images/banner.png" alt="Nexus CRM Banner" width="100%">
+</p>
+
+<br>
+
 # Nexus CRM
 
 Lead Management & Sales Pipeline Dashboard
